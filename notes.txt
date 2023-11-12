@@ -38,5 +38,31 @@ Insight and Analytics:
     - See job time, failures and resource intensive tasks with insights
     - Optimize workflow and make them run smoothly with insights
 
-
- 
+GitHub Events:
+    - Triggers for running tests, deploying code or sending notifications to team
+    members
+    - Trigger Events:
+        - Pull Request:
+            - when pull request is opened or updated in a repository
+            - it indicates that changes are ready for review and merging
+        - Push:
+            - when code is pushed to a repository
+            - Either through commit or branch update
+        - Issue:
+            - when an issue is opened or updated in a repository
+            - indicates that there is a problem or feature request is that needs to be
+            addressed
+        - Pull Request Review:
+            - When a review is submitted on a pull request 
+            - indicates that the changes have been reviewed and approved or rejected
+        - Repository Dispatch:
+            - When a custom webhook is triggered by a repository
+        - Pull Request Review comment:
+            - When a comment is made on a review of a pull request
+        - Issue Comment:
+            - When a comment is made on a issue
+        - Workflow Run:
+            - When a workflow is manually triggered or when it is triggered by another
+            event in the workflow
+        - Release:
+            - When a new release is published in the repository
