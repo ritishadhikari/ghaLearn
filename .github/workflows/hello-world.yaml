@@ -1,0 +1,15 @@
+name: Hello World  # name of the work flow
+on: [push]  # The event that triggers the workflow
+            # In this case workflow is triggered when the code is pushed into the repo
+
+jobs:
+  build:
+    # The OS env that the job runs on
+    runs-on: ubuntu-latest
+    steps:
+      # Name of the step for readability, does not affect the execution of the workflow
+      - name: Say Hello
+        # Command that is executed as part of the step
+        run: echo "Hello, World!"
+
+

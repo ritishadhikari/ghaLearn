@@ -1,0 +1,42 @@
+Custom Workflows can be created based on specific conditions to customize the 
+development process in unique and creative ways
+
+Examples of event-driven workflows include automatically running tests when code is
+pushed or automatically deploying a new version of software when a new release is 
+created
+
+Github actions can build, test, and deploy Docker Containers from within your 
+repository. It is like having your own shipping container port right in your codebase
+
+Docker and Github actions ensure that your code runs consistently, no matter where it 
+is deployed
+
+MarketPlace:
+    - GitHub Actions MarketPlace contains plethora of useful actions for automating 
+    workflows
+    - You can find actions for almost everything, from running tests to deploying 
+    code to the cloud
+    - Developers are constantly creating new actions and sharing them with the 
+    community, so there's always something to try
+
+You can share custom actions with others in the Github community or keep them private
+for use within your team
+
+Security and Compliance:
+    - Built in security features like secrets management, automatic security updates and
+    code scanning keep code safe
+    - Third party security tools like Snyk and SonarCloud work with Github's 
+    security features 
+    - Compliance features like access control, audit logging and policy enforcement are
+    like a strict but fair teacher watching your code
+
+Insight and Analytics:
+    - It make workflows better as it measures the performance and success of your 
+    workflows with insights
+    - Get valuable insights into what's working and what's not
+    - It tells which workflow needs improvement
+    - See job time, failures and resource intensive tasks with insights
+    - Optimize workflow and make them run smoothly with insights
+
+
+ 
