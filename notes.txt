@@ -66,3 +66,49 @@ GitHub Events:
             event in the workflow
         - Release:
             - When a new release is published in the repository
+
+Benefits of using Matrix and Parallel Strategies:
+    - Saves a lot of time with lighting fast builds
+    - More flexible and adaptable
+
+Set Up Matrix Strategies:
+    - Define your Matrix
+    - Specify your strategy
+    - Use the matrix
+
+Best Practices and Tips on Matrix:
+    - Keep it simple
+    - Use Environment Variables
+    - Test Locally
+    - Use Parallelism
+    - Keep an eye on resource usage
+
+Secrets:
+    - They are like secret vault which only authorized personnel can access
+    - Grant access to repository secrets only to those who need it to ensure their 
+    safety and security
+    - The secrets context injects your secrets into the environment variables of the 
+    runner, making them available to your workflow
+    - Once your store your secrets, reference them in your workflow file using 
+    ${{ secrets.SECRET_NAME }} syntax
+    - If your secrets does not work, ensure that you have the correct permissions and 
+    access to the repository
+
+Composite Runs:
+    - keep your code clean and tidy
+    - Reference the other workflows (using the "uses" keyword)
+    - It helps to manage multiple workflows with ease
+    - Plan your composite run carefully avoiding overloading
+    - Composite runs can be complex and difficult to debug and can be limited by
+    the number of available resources on your runner
+
+Build Caching:
+    - Decide what type of build caching to use:
+        - Local Build Caching
+        - Remote Build Caching
+        - Cloud Build Caching
+    - Only cache the files and directories that actually need
+    - Regularly clean out your cache
+    - Test your build caching thoroughly before relying on it for your entire
+    workflow
+    - It can be tricky to set up and configure correctly
