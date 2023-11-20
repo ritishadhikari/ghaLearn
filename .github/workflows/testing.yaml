@@ -1,0 +1,17 @@
+name: Example usage of Automated Testing Workflow
+on:   
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositories
+        uses: actions/checkout@v2
+      - name: Run Automated Testing Workflow
+        uses: ./.github/workflows/reusable-testing.yaml
+          with: 
+            python_version: "3.9"
+            tests_folder: "tests"
+            requirement_file: "requirements.txt"

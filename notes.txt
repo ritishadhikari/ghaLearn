@@ -109,6 +109,6 @@ Build Caching:
         - Cloud Build Caching
     - Only cache the files and directories that actually need
     - Regularly clean out your cache
-    - Test your build caching thoroughly before relying on it for your entire
+    - Test your build   caching thoroughly before relying on it for your entire
     workflow
     - It can be tricky to set up and configure correctly
